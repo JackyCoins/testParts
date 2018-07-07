@@ -1,0 +1,28 @@
+{
+  "name": "testparts",
+  "version": "1.0.0",
+  "description": "`npm i -g parcel`",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/react/context",
+    "build": "parcel build ./src/react/context"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackyCoins/testParts.git"
+  },
+  "author": "Rusanov Nikita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackyCoins/testParts/issues"
+  },
+  "homepage": "https://github.com/JackyCoins/testParts#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
