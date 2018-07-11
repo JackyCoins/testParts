@@ -4,7 +4,7 @@
   "description": "`npm i -g parcel`",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./src/react/context",
+    "dev": "parcel ./src/react/context/index.html --port 8080",
     "build": "parcel build ./src/react/context"
   },
   "repository": {
@@ -22,6 +22,7 @@
     "react-dom": "^16.4.1"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1"
   }
