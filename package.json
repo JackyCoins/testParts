@@ -4,7 +4,8 @@
   "description": "`npm i -g parcel`",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./src/react/context/index.html --port 8080",
+    "dev:react--context": "parcel ./src/react/context/index.html --port 8080",
+    "dev:styles--css-in-js--styled-components": "parcel ./src/styles/css-in-js/styled-components/index.html --port 8080",
     "build": "parcel build ./src/react/context"
   },
   "repository": {
@@ -19,7 +20,8 @@
   "homepage": "https://github.com/JackyCoins/testParts#readme",
   "dependencies": {
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
