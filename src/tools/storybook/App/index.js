@@ -2,10 +2,8 @@
 import React from "react";
 //endregion
 
-//region Button
-const Button = props => (
-  <button onClick={props.onClick}>{props.children}</button>
-);
+//region Import components
+import Button from "../Button";
 //endregion
 
 //region App
