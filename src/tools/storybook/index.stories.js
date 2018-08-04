@@ -1,10 +1,10 @@
 //region Import libraries
 import React from "react";
-import { render } from "react-dom";
+import { storiesOf } from '@storybook/react';
 //endregion
 
 //region Import components
 import App from "./App";
 //endregion
 
-render(<App/>, document.getElementById("root"));
+storiesOf("Example storybook", module).add("App", () => <App />);

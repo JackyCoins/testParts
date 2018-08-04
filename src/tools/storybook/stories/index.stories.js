@@ -1,13 +1,16 @@
+//region Import libraries
 import React from 'react';
-
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
-
 import { Button, Welcome } from '@storybook/react/demo';
+//endregion
 
+//region Welcome
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
+//endregion
 
+//region Button
 storiesOf('Button', module)
   .add('with text', () => <Button onClick={action('clicked')}>Hello Button</Button>)
   .add('with some emoji', () => (
@@ -17,3 +20,4 @@ storiesOf('Button', module)
       </span>
     </Button>
   ));
+//endregion
